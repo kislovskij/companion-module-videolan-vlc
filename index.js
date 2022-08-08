@@ -1033,7 +1033,7 @@ instance.prototype.actions = function (system) {
 			label: 'Play ID',
 			options: [
 				{
-					type: 'textinput',
+					type: 'textwithvariables',
 					label: 'Clip Number',
 					id: 'clip',
 					default: 1,
@@ -1047,7 +1047,7 @@ instance.prototype.actions = function (system) {
 			label: 'Seek To',
 			options: [
 				{
-					type: 'textinput',
+					type: 'textwithvariables',
 					label: 'Where',
 					id: 'where',
 					default: '1',
@@ -1061,7 +1061,7 @@ instance.prototype.actions = function (system) {
 			label: 'Add Item',
 			options: [
 				{
-					type: 'textinput',
+					type: 'textwithvariables',
 					label: 'Clip path/MRL',
 					id: 'mrl',
 					default: '',
@@ -1072,7 +1072,7 @@ instance.prototype.actions = function (system) {
 			label: 'Add and Play',
 			options: [
 				{
-					type: 'textinput',
+					type: 'textwithvariables',
 					label: 'Clip path/MRL',
 					id: 'mrl',
 					default: '',
@@ -1083,7 +1083,7 @@ instance.prototype.actions = function (system) {
 			label: 'Delete ID',
 			options: [
 				{
-					type: 'textinput',
+					type: 'textwithvariables',
 					label: 'Clip Number',
 					id: 'clip',
 					default: 1,
